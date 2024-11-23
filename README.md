@@ -34,6 +34,11 @@ This is pretty simple, name the pak whatever you want, no need to encrypt it. Th
 ```
 This can also be a directory etc.. if you have multiple files. 
 
+# Add pack to the ~mods folder:
+As the title says, create teh ~mods folder if it does not exist wihtin the dir: `S.T.A.L.K.E.R. 2 Heart of Chornobyl\Stalker2\Content\Paks\~mods`
+Insert the newly curated pak files there. 
+After restarting the game, hopefully everything works.
+
 # Notes:
 Most of all the important data is stored in the pak file `pakchunk0-Windows.pak`. This is obvious since its the largest pak file. 
 Feel free to extract others if this is not what you are looking for.
