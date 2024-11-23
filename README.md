@@ -1,6 +1,7 @@
 # Stalker2Mods
-Mod files for Stalker 2 enhancement
+Mod files and steps for Stalker 2 enhancement
 
+Note: I am not responsible for how you use this. The goal is to build a good community around a great game. Therefore, use responsibly please. 
 
 # Modding Steps:
 Its challanging to find any concrete process of doing this, thus I tossed togather a small primer on how to decrypt, unpack, adn change the .cfg files included with stalker 2 in order to set/adjust any values you desire.
