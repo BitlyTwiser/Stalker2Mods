@@ -29,8 +29,19 @@ The resulting data should all be unpacked for you to review.
 
 # RePack the file:
 This is pretty simple, name the pak whatever you want, no need to encrypt it. Then in the -Create= flag, pass the file you are packing (after your modifications are done)
+
+One item to note, I had success with building out a folder structure to store the changed .csf files within:
+
+So make a folder and add the changes files here:
 ```
-.\UnrealPak.exe "<namethiswhateveryouwant>.pak" -Create="<fileyouchanged>"
+Stalker2\Content\GameLite\GameData
+```
+
+This is generally the path where you originally changed the files from if you performed the above extraction steps.
+
+Now re-pack and compress the folder
+```
+.\UnrealPak.exe "<namethiswhateveryouwant>.pak" -Create="<folderpath>" -Compress
 ```
 This can also be a directory etc.. if you have multiple files. 
 
