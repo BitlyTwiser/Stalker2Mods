@@ -17,7 +17,7 @@ Just drag the binary (It will be labeled as -Shipping within your installation d
 No need to perform DRM removal steps using Steamless etc.. this will work without perform such actions.
 
 # Base64 Encode the key and setup crypto.json
-1. Using the included Python script, Input the key and copy the resulting base64 encoded key.
+1. Using the included Python script to get the Base64 encoded key for the crypto file. Input the key you got from AESDumpster into the python script. After running the script, copy the resulting base64 encoded key.
 2. Add ther resulting decoded key into the Crypto.json file in the "Key" section. (You will see <YourKeyHere> within the file )
 
 # Unpack Data
