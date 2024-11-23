@@ -4,8 +4,7 @@ Mod files and steps for Stalker 2 enhancement
 Note: I am not responsible for how you use this. The goal is to build a good community around a great game. Therefore, use responsibly please. 
 
 # Modding Steps:
-Its challanging to find any concrete process of doing this, thus I tossed togather a small primer on how to decrypt, unpack, adn change the .cfg files included with stalker 2 in order to set/adjust any values you desire.
-Not so much modding as it is simple value adjustments, but will affect the game nontheless.
+Its challanging to find any concrete process of doing this, thus I tossed togather a small primer on how to decrypt, unpack, and change the .cfg files included with stalker 2 in order to set/adjust any values you desire.
 
 # Needed Binaries:
 - UnrealPak (version 5.1) - Install unreal Engine and find the binary in (C:\Program Files\Epic Games\UE_5.1\Engine\Binaries\Win64)
@@ -14,7 +13,7 @@ Not so much modding as it is simple value adjustments, but will affect the game 
 
 # Steps:
 You will need to extract the encryption Key from the Shipping binary using AESDumpster.
-Just drag the binary onto the AESDumpster binary and it will extract the key.
+Just drag the binary (It will be labeled as -Shipping within your installation directory) onto the AESDumpster binary and it will extract the key.
 No need to perform DRM removal steps using Steamless etc.. this will work without perform such actions.
 
 # Base64 Encode the key and setup crypto.json
