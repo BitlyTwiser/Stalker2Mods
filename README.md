@@ -18,7 +18,7 @@ No need to perform DRM removal steps using Steamless etc.. this will work withou
 
 # Base64 Encode the key and setup crypto.json
 1. Using the included Python script, Input the key and copy the resulting base64 encoded key.
-2. Add ther resulting decoded key into the Crypto.json file in the "Key" section. (You will see <YourKeyHere>)
+2. Add ther resulting decoded key into the Crypto.json file in the "Key" section. (You will see <YourKeyHere> within the file )
 
 # Unpack Data
 1. Run UnrealPak to extract the data
