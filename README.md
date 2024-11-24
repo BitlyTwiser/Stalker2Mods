@@ -50,6 +50,21 @@ Now re-pack and compress the folder
 .\UnrealPak.exe "<namethiswhateveryouwant>.pak" -Create="<folderpath>" -Compress
 ```
 
+Note: If the re-pack/compression does not seem to be working, try making a filelist.txt and run the folder through the following .bat file:
+
+```
+@if "%~1"=="" goto skip
+
+@setlocal enableextensions
+@pushd %~dp0
+@echo "%~1\*.*" "..\..\..\*.*" >filelist.txt
+.\UnrealPak.exe "%~1.pak" -create=filelist.txt -compress
+@popd
+@pause
+
+:skip
+```
+
 # Add pack to the ~mods folder:
 As the title says, create teh ~mods folder if it does not exist wihtin the dir: `S.T.A.L.K.E.R. 2 Heart of Chornobyl\Stalker2\Content\Paks\~mods`
 Insert the newly curated pak files there. 
